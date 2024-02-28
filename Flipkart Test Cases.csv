@@ -1,0 +1,85 @@
+Test Scenarios ID,Test Scenarios,Test Cases,Pre-requisite,Test Data ,Test Steps,Expected result,Actual result,Pass/Fail
+TS_LF_001,Verify URL is working or not?,Verify URL by entering to browser,open the browser ,https://demo.nopcommerce.com/,"enter url
+click on search button",homepag should be visible,home page is visible,pass
+TS_LF_002,Verify register button is wroking or not?,Verify register button by clicking on that,"open the browser,enter the url",https://demo.nopcommerce.com/,1. click on register button,register page should be open,register page is visible,Pass
+TS_LF_003,Verify login dropdown button ,Verify login dropdown button by clicking,"open the browser,enter the url",na,click on dropdown button,signup link should display,it is visible,pass
+TS_LF_004,Verify signup link,Verify signup link by clicking ot that,"open the browser,enter the url",na,"click on login dropdown button
+click on signup link",signup page should display,it is visible,pass
+TS_LF_005,Verify placeholder visivble inside textfield,Verify textfield placeholder by observing ,"open the browser
+enter url",na,"click on Login button
+observe placeholder inside textfield",Placeholder should display,It is visible,Pass
+TS_LF_006,Verify curser button blinking ,"Verify cursur button visibility after clicking 
+in textfield","open the browser
+enter url",na,"click to login button
+click to mobileNo textfield",Curser should blink ,It is blinking,pass
+TS_LF_007,Verify request OTP button funct.,"Verify mob Number with valid data
+1. 10 digits mobile number","open the browser
+enter url",6267195398,"click on login button 
+click on mob. no. textfield
+enter test data
+click on request otp button","opt shoul come in that
+ particular
+mobile number","OTP comes in 
+mobile number",pass
+TS_LF_007,Verify login functionality,"Verify mob Number with valid data
+1. valid gmail Id","open the browser
+enter url","deepak@
+gmail.com","click on login button
+click on gmail textfield
+enter gmail
+click on request OPT
+enter OTP","User should get login & l
+logout option should 
+display",It is working fine,pass
+TS_LF_008,Verify login functionality,"Verify login funct. by entering 
+blank data/space","open the browser
+enter url",na,"1. click on login button
+2. enter nothing in mobile
+number textfeild
+3 click on OTP request","""enter valid data"" 
+message should display",It is displaying,pass
+TS_LF_009,Verify login functionality,"Verify mob Number with invalid data
+1.invalid mobile number   /
+2. enter invalid gmail","open the browser
+enter url",626719,"1. click on login button
+2. enter  invalid mobile
+number /gmail
+3 click on OTP request","""enter valid data"" 
+message should display",It is displaying,pass
+TS_LF_010,Verify login functionality,Verify login funct. in multiple browser,"open the browser
+enter url","mob. number
+chrome browser
+enternet explorer","In one browser :------
+click on login button 
+enter valid mobile number
+click on request OTP button  ,
+ Enter OTP 
+Click on verify OTP button ","User should get login 
+in current browser and
+ other browser also ","User is not login in 
+other browser
+after login with 
+one browser","fail
+"
+TS-Lf_011,Verify back button in home page,"Verify back button funct. after 
+successfully login","open the browser
+enter url","mobile number
+opt","click on login button
+enter mobile number 
+click on request OTP
+enter OTP, 
+click on verify button
+click on back button",User should not get logout,"User is not 
+getting logout",pass
+TS_LF-012,Verify page load time funct.,Verify home page visibility after login,"open the browser
+enter url","mobile number
+opt","click on login button
+enter mobile number
+click on request OTP button
+enter OTP
+click on verify button
+","Home page should be 
+display with in  minimum 
+time","Home page is
+displaying within 
+a second",pass
