@@ -1,0 +1,28 @@
+Test case ID,Test scenario,Test case,Pre requisite,Test steps,Test data,Expected Result,Actual Result,Status,Comment
+TS_LF_001,Verify URL is working or not,Verify URL by entering to browser,open the browser ,https://demo.nopcommerce.com/,"enter url
+click on search button",homepag should be visible,home page is visible,pass,
+TS_LF_002,Verify register link is wroking or not,Verify register link by clicking on that,"open the browser,enter the url",https://demo.nopcommerce.com/,1. click on register button,register page should be open,register page is visible,Pass,
+TC_SF_003,Verify radio button,Verify radio button by clicking on anyone of them,"1)Open the browser
+2) Enter the URL
+3) click on register ",select any gender,NA,the clicked button should be selected,the clicked button got selected,,
+TC_SF_004,verify first name,this should accept character only,"1)Open the browser
+2) Enter the URL
+3) click on register",enter name,anurag,it should accept character only,name accepted,pass,
+TC_SF_005,verify last name,this should accept character only,"1)Open the browser
+2) Enter the URL
+3) Login to the application",enter last name,ti1w1a1ri1,should not accept the last name,name not accepted,pass,
+TC_SF_006,verify email,user is not providing valid email id,"1)Open the browser
+2) Enter the URL
+3) Login to the application",enter email address,anuragtiwari263@abcd.com,should not accept the mail id,not accepted,pass,
+TC_SF_007,verify password,"password must have character, number and special character","1)Open the browser
+2) Enter the URL
+3) Login to the application",enter password,aklter273@,it should accept the password,password accepted,pass,
+TC_SF_008,verify confirm password ,confirm password must match the password provided,"1)Open the browser
+2) Enter the URL
+3) Login to the application",re-enter the password,aklter273#,it should not accept the password,password not accepted,pass,
+TC_SF_009,verify register functionality,check register button is working or not,"1)Open the browser
+2) Enter the URL
+3) Login to the application",click on register button,mendatory fields not filled,all the mendatory fields must be filled only then it should be clicked,not clicked,pass,
+TC_SF_0010,verify register functionality,check register button is working or not,"1)Open the browser
+2) Enter the URL
+3) Login to the application",click on register button,mendatory fields are filled,all the mendatory fields must be filled only then it should be clicked,not clicked,pass,

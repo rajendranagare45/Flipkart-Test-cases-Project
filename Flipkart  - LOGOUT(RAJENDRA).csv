@@ -1,0 +1,30 @@
+,,,,,,,,,
+Test case Id,Test Scenario,Test Case,Pre-requisite,Test Step,Test Data,Expected Result ,Actual Result,Status ,Comment 
+Tc_LG_01,To Verify the logout Functionality,Log in to the Flipkart account and verify that there is an option to log out,1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu",NA,User should be logged out,User Should be logged out,Pass,
+Tc_LG_02,To Verify the logout Functionality,Click on the logout option and verify that the user is successfully logged out,1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu",NA,User should be logged out,,,
+Tc_LG_03,To Verify the logout Functionality,"Verify the Application session status, after
+logging and closing the browser without
+logging out",1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Close the browser without logging out
+2) Open the browser and navigate the application",NA,Application should not get logged out and login status should be maintained,,,
+Tc_LG_04,To Verify the logout Functionality,"Verify clicking on browser back button after Logout ",1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu                                                                    3) Click on browser back button  ",NA,User should not get logged in,,,
+Tc_LG_05,To Verify the logout Functionality,Verify the clicking on the logout option redirects the user to the login page,1) Open the browser                               2) Enter the Url                                        3) User should be login  ,"1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu",NA,User is redirected to the login page,,,
+Tc_LG_06,To Verify the logout Functionality,Verify Logout option is not available before Logging in,"1) Open the browser
+2) Enter the Url
+3)Click on ""My account"" Dropdown menu
+4) Check if Logout option is displayed","1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu",NA,"Logout option should not be displayed under ""My Account""
+dropmenu",,,
+Tc_LG_07,To Verify the logout Functionality,"Verify Logout from an Account after logging
+from 2 different browsers","1) Open the browser                            2) Enter the Url                                      3) User should be logged in Chrome
+Browser
+4) User should be logged in Firefox
+Browser under same credentials","1) Click on ""My account"" Dropmenu in firefox Browser
+2) Select Logout option
+3) On Chrome Browser perform same operation
+",NA,"User should be logged out from
+device 2 instead of navigating
+to the different page.",,,
+Tc_LG_08,To Verify the logout Functionality,Verify 'Account Logout' page,1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Click on ""My account"" Dropmenu 
+2) Select Logout option
+3) Check page heading, page Title, URL of logout page",NA,"Proper page heading, page title, URL of the logout page should be displayed",,,
+Tc_LG_09,To Verify the logout Functionality,Verify UI of the Logout page,1) Open the browser                            2) Enter the Url                                     ,"1) Click on ""My account"" Dropdown menu               2) Click on  ""Logout"" option from ""My Account"" dropmenu",NA,Logout UI should adhere to UI checklist,,,
+Tc_LG_10,To Verify the logout Functionality,,,,,,,,

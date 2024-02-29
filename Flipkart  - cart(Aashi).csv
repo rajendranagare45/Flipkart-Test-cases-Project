@@ -1,0 +1,67 @@
+Test case ID,Test scenario,Test case,Pre-requisite,Test steps,Test Data,Expected Result,actual,status
+TS_LF_001,Verify the other functionality,"to verify that when we are hovering on computer,it 
+is showing dropdown icon and those options
+ are clickable","1.open browser
+2.enter url
+3.register on website","1.mouse hover on electronics
+2.choose the option others",Na,"
+electronice should be visible and
+and click the dropdown","
+electronice is visible and
+and click the dropdown",pass
+TS_LF_002,Verify the other functionality,to check the shot by dropdown working or not,"1.open browser
+2.enter url
+3.register on website","1.click on electronics
+2.click on others
+3.click on position dropdown option",na,dropdown should be workable,dropdown functionality is working,pass
+TS_LF_003,Verify the other functionality,to verify that choose product details is diplayed ,"1.open browser
+2.enter url
+3.register on website","1.click on electronics
+2.click on others
+3.click on position and
+4.click on prroduct linktext",na,product details should be visible,product details is visible,pass
+TS_LF_001, Verify the other functionality,to verify in the product add to cart function is working,"1.open browser
+2.enter url
+3.register on website","1.click on electronics
+2.click on others
+3.click on position and
+4.click on prroduct linktext
+5. click on add to cart button",na,add to cart button should be clickable,add to cart button is working,pass
+   TS_LF_001,Verify the other functionality,to verify add to cart quantity box getting input ,"1.open browser
+2.enter url
+3.register on website","1.click on electronics
+2.click on others
+3.click on position and
+4.click on prroduct linktext
+5. click on add to cart button
+6.click on add to cart quantity box",na,add to cart quantity box should getting the input value,add to cart quantity box is gettin the value,pass
+TS_LF_001,Verify the other functionality,to verify that shopping cart option is button clickable,"1.open browser
+2.enter url
+3.register on website","1.click on electronics
+2.click on others
+3.click on position and
+4.click on prroduct linktext
+5. click on add to cart button
+6.click on add to cart quantity box
+7.click on shopping cart icon",na,shopping cart icon should be clickable ,shopping cart icon is clickable,pass
+   TS_LF_001,Verify the other functionality,to verify the update shopping cart button clickable ,"1.open browser
+2.enter url
+3.register on website","1.click on shopping cart
+2.click on update shopping cart",,update shopping cart should be clickable,update shopping is clickable,pass
+TS_LF_001,Verify the other functionality,to verify the continue shopping button clickable,"1.open browser
+2.enter url
+3.register on website","1.click on shopping cart
+2.click on continue shopping
+3.go to the product page",,continue shopping should be clickable,continue shopping is clickable,pass
+TS_LF_001,Verify the other functionality,to verify the estimat shipping button clickable ,"1.open browser
+2.enter url
+3.register on website","1.click on estimate shipping 
+2. there is 3 options available
+4. select country
+5. others
+6.postal code
+7 apply",,estimate shipping should be clickable,estimate shipping is clickable,pass
+TS_LF_001,Verify the other functionality,,"1.open browser
+2.enter url
+3.register on website",2.click on continue shopping,,,,
+TS_LF_001,Verify the other functionality,,,3.go to the product page,,,,
