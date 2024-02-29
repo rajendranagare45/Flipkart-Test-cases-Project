@@ -4,7 +4,8 @@ is showing dropdown icon and those options
  are clickable","1.open browser
 2.enter url
 3.register on website","1.mouse hover on electronics
-2.choose the option others",Na,"
+2.choose the option others
+",Na,"
 electronice should be visible and
 and click the dropdown","
 electronice is visible and
@@ -50,12 +51,14 @@ TS_LF_001,Verify the other functionality,to verify that shopping cart option is 
 2.click on update shopping cart",,update shopping cart should be clickable,update shopping is clickable,pass
 TS_LF_001,Verify the other functionality,to verify the continue shopping button clickable,"1.open browser
 2.enter url
-3.register on website","1.click on shopping cart
+3.register on website
+","1.click on shopping cart
 2.click on continue shopping
 3.go to the product page",,continue shopping should be clickable,continue shopping is clickable,pass
 TS_LF_001,Verify the other functionality,to verify the estimat shipping button clickable ,"1.open browser
 2.enter url
-3.register on website","1.click on estimate shipping 
+3.register on website
+","1.click on estimate shipping 
 2. there is 3 options available
 4. select country
 5. others
@@ -63,5 +66,6 @@ TS_LF_001,Verify the other functionality,to verify the estimat shipping button c
 7 apply",,estimate shipping should be clickable,estimate shipping is clickable,pass
 TS_LF_001,Verify the other functionality,,"1.open browser
 2.enter url
-3.register on website",2.click on continue shopping,,,,
+3.register on website
+",2.click on continue shopping,,,,
 TS_LF_001,Verify the other functionality,,,3.go to the product page,,,,
