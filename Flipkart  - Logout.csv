@@ -6,7 +6,8 @@ Tc_LG_03,To Verify the logout Functionality,"Verify the Application session stat
 logging and closing the browser without
 logging out",1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Close the browser without logging out
 2) Open the browser and navigate the application",NA,Application should not get logged out and login status should be maintained,,,
-Tc_LG_04,To Verify the logout Functionality,"Verify clicking on browser back button after Logout ",1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu                                                                    3) Click on browser back button  ",NA,User should not get logged in,,,
+Tc_LG_04,To Verify the logout Functionality,"Verify clicking on browser back button after Logout 
+",1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu                                                                    3) Click on browser back button  ",NA,User should not get logged in,,,
 Tc_LG_05,To Verify the logout Functionality,Verify the clicking on the logout option redirects the user to the login page,1) Open the browser                               2) Enter the Url                                        3) User should be login  ,"1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu",NA,User is redirected to the login page,,,
 Tc_LG_06,To Verify the logout Functionality,Verify Logout option is not available before Logging in,"1) Open the browser
 2) Enter the Url
@@ -14,7 +15,8 @@ Tc_LG_06,To Verify the logout Functionality,Verify Logout option is not availabl
 4) Check if Logout option is displayed","1) Click on ""My account"" Dropdown menu               2) Select ""Logout"" option from ""My Account"" dropmenu",NA,"Logout option should not be displayed under ""My Account""
 dropmenu",,,
 Tc_LG_07,To Verify the logout Functionality,"Verify Logout from an Account after logging
-from 2 different browsers","1) Open the browser                            2) Enter the Url                                      3) User should be logged in Chrome
+from 2 different browsers
+","1) Open the browser                            2) Enter the Url                                      3) User should be logged in Chrome
 Browser
 4) User should be logged in Firefox
 Browser under same credentials","1) Click on ""My account"" Dropmenu in firefox Browser
@@ -22,7 +24,8 @@ Browser under same credentials","1) Click on ""My account"" Dropmenu in firefox 
 3) On Chrome Browser perform same operation
 ",NA,"User should be logged out from
 device 2 instead of navigating
-to the different page.",,,
+to the different page.
+",,,
 Tc_LG_08,To Verify the logout Functionality,Verify 'Account Logout' page,1) Open the browser                            2) Enter the Url                                     3) User should be login,"1) Click on ""My account"" Dropmenu 
 2) Select Logout option
 3) Check page heading, page Title, URL of logout page",NA,"Proper page heading, page title, URL of the logout page should be displayed",,,
